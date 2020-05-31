@@ -4,6 +4,40 @@
 博客首页是这个样子
 
 ![深度截图_20200531175042.png](https://i.loli.net/2020/05/31/CSs4xE7jZqJ5ygK.png)
-<a href="https://sm.ms/image/WBdOwhQrCysAJMb" target="_blank"><img src="https://i.loli.net/2020/05/31/WBdOwhQrCysAJMb.png" ></a>
 每页显示两篇文章，上一页和下一页
-添加友链功能，这里可以由用户添加友情链接
+添加友链功能，这里可以由用户添加友情链接，点击会跳转
+![深度截图_20200531180154.png](https://i.loli.net/2020/05/31/WBdOwhQrCysAJMb.png)
+
+看一下文章详情，因为页面大小的关系，这里把页面缩小了，以便显示所有的页面内容
+![深度截图_20200531180243.png](https://i.loli.net/2020/05/31/z1R3NemOBjsY4yI.png)
+上一篇和下一篇就是获取当前文章的id，进行加减操作，文章带有评论功能，有显示用户名、评论内容、评论时间
+
+标签页面
+每篇文章都会写关于这篇文章的标签，类似于PHP、Java之类，对内容的一个大体分类，也包括相应的标题并且能跳转到对应的文章详情页
+![3.png](https://i.loli.net/2020/05/31/tI79RVBxKAzOhed.png)
+
+## 后台功能
+
+后台的很多功能会有一个权限的设置，有一定权限才能进行删除操作
+
+文章标签页
+可以对文章标题和文章标签进行修改和删除
+![深度截图_20200531183001.png](https://i.loli.net/2020/05/31/TkVvF9B1nl5aq7z.png)
+
+文章添加
+这里可以添加文章
+![深度截图_20200531183142.png](https://i.loli.net/2020/05/31/NL3RzPsOy2KYouH.png)
+
+用户管理
+可以看到用户的权限、状态和邮箱
+![深度截图_20200531184126.png](https://i.loli.net/2020/05/31/aG58YrBHvzSIVKx.png)
+
+友情链接
+可以看到友情链接的地址和名称，也可以进行删除操作
+![深度截图_20200531184132.png](https://i.loli.net/2020/05/31/m9FYx48LKOVgMCd.png)
+
+评论功能
+可以看到评论者的名称，评论的文章标题，评论的内容和评论时间
+![深度截图_20200531184139.png](https://i.loli.net/2020/05/31/QqUrmDEbLAfPId3.png)
+
+这次的项目联系主要是这几个功能，功能相对简单，主要是用来练手，熟悉thinkphp
